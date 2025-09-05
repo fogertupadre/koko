@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Formación ADSI</title>
+    <!-- Incluye el CDN de Tailwind CSS Celeste (#3B82F6) + Blanco (#FFFFFF) + Azul Marino (#1E3A8A)-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fuente Inter de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        .text-shadow-strong {
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9),
+                0px 0px 10px rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+
+<body class="text-gray-800">
+
+    <!-- Sección de Encabezado (Hero) -->
+
+
+
+    <header class="text-white py-4 px-4 md:px-6 lg:px-10 rounded-b-2xl shadow-xl sticky top-0 z-50"
+        style="background-image: url('file:///C:/proyecto adsi/imagenes_adsi/fondoscu.jpg'); background-size: cover; background-position: center;">
+
+        <div class="max-w-9xl mx-auto">
+
+            <!-- Fila superior con 3 columnas -->
+            <div class="grid grid-cols-3 items-center w-full">
+
+                <!-- Logo -->
+                <div class="flex flex-col items-start text-left">
+                    <img src="C:\proyecto adsi\imagenes_adsi\logo33.jpg" class="mt-4 ml-8" style="width: 170px; height: 170px;">
+
+                    <p class="mt-2 text-base italic text-[#FFFEFF] font-bold text-shadow-strong">
+                        Educación de calidad
+                        para todos <br>
+                    </p>
+                </div>
+
+                <!-- Texto centrado -->
+                <div class="text-center">
+                    <h1
+                        class="text-4xl md:text-6xl lg:text-5xl font-extrabold leading-tight tracking-tight text-[#00ABE4] font-sans text-shadow-strong">
+                        <strong>CENFORPRO</strong>
+                    </h1>
+
+                    <p class="mt-2 text-lg italic text-[#FFFEFF] font-bold text-shadow-strong">
+                        <strong>Centro de Formacion Profesional</strong>
+                    </p>
+
+                    <p class="mt-4 text-2xl md:text-xl text-[#FFFEFF] font-bold text-shadow-strong">
+                        <strong>Capacitación IA Ciberseguridad Data Science 100% práctico</strong>
+                    </p>
+
+                    <p class="mt-2 text-xl md:text-lg text-[#FFFEFF] font-bold text-shadow-strong">
+                        <strong>Educación / Capacitación / Training</strong>
+                    </p>
+                </div>
+
+                <!-- Contacto + Redes -->
+                <div class="flex flex-col items-end space-y-14">
+
+                    <!-- Teléfono + Gmail -->
+                    <div class="flex flex-col  text-xs items-start pl-2">
+
+                        <!-- Teléfono -->
+                        <span class="flex items-center space-x-2 text-lg italic text-shadow-strong">
+                            <a href="tel:+51995770117" aria-label="Teléfono"
+                                class="transition-transform duration-300 hover:scale-110 inline-block">
+                                <img src="C:\proyecto adsi\imagenes_adsi\logwas.jpg" alt="Teléfono"
+                                    class="w-8 h-8 transition duration-300 hover:brightness-125">
+                            </a>
+                            <span class="text-white italic font-bold text-shadow-strong">+51-995770117</span>
+                        </span>
+
+                        <!-- Gmail -->
+                        <span class="flex items-center space-x-2 text-lg italic text-shadow-strong">
+                            <a href="mailto:informes@adsi.edu.pe" aria-label="Gmail"
+                                class="transition-transform duration-300 hover:scale-110 inline-block">
+                                <img src="C:\proyecto adsi\imagenes_adsi\gmail.jpg" alt="Gmail"
+                                    class="w-8 h-8 transition duration-300 hover:brightness-125">
+                            </a>
+                            <span class="text-white italic font-bold text-shadow-strong">informes@adsi.edu.pe</span>
+                        </span>
+                    </div>
+
+                    <div class="flex space-x-4 ml-6">
+                    <a href="https://www.tiktok.com/@tu_usuario" aria-label="TikTok"
+                        class="transition-transform duration-300 hover:scale-110 inline-block">
+                        <img src="C:\proyecto adsi\imagenes_adsi\logtik.jpg" alt="TikTok"
+                            class="w-8 h-8 rounded-lg transition duration-300 hover:brightness-125">
+                    </a>
+                    <a href="https://www.facebook.com/adsi.peru" aria-label="Facebook"
+                        class="transition-transform duration-300 hover:scale-110 inline-block">
+                        <img src="C:\proyecto adsi\imagenes_adsi\logoface.jpg" alt="Facebook"
+                            class="w-8 h-8 rounded-lg transition duration-300 hover:brightness-125">
+                    </a>
+                    <a href="https://www.facebook.com/adsi.peru" aria-label="LinkedIn"
+                        class="transition-transform duration-300 hover:scale-110 inline-block">
+                        <img src="C:\proyecto adsi\imagenes_adsi\linklo.jpg" alt="LinkedIn"
+                            class="w-8 h-8 rounded-lg transition duration-300 hover:brightness-125">
+                    </a>
+                    <a href="https://www.instagram.com/adsiperu/" target="_blank" aria-label="Instagram"
+                        class="transition-transform duration-300 hover:scale-110 inline-block">
+                        <img src="C:\proyecto adsi\imagenes_adsi\insta.jpg" alt="Instagram"
+                            class="w-8 h-8 rounded-lg transition duration-300 hover:brightness-125">
+                    </a>
+                    <a href="https://www.youtube.com/adsi" aria-label="YouTube"
+                        class="transition-transform duration-300 hover:scale-110 inline-block">
+                        <img src="C:\proyecto adsi\imagenes_adsi\youlogo.jpg" alt="YouTube"
+                            class="w-8 h-8 rounded-lg transition duration-300 hover:brightness-125">
+                    </a>
+                    <a href="https://t.me/tu_usuario_telegram" aria-label="Telegram"
+                        class="transition-transform duration-300 hover:scale-110 inline-block">
+                        <img src="C:\proyecto adsi\imagenes_adsi\tele.jpg" alt="Telegram"
+                            class="w-8 h-8 rounded-lg transition duration-300 hover:brightness-125">
+                    </a>
+                </div>
+
+
+                </div>
+            </div>
+
+            <!-- Menú debajo -->
+            <div class="mt-6 w-full flex items-center justify-between">
+                <!-- Bloque de botones (centrados) -->
+                <ul class="flex justify-center space-x-4 flex-grow">
+                    <li>
+                        <a href="#nuestros-programas"
+                            class="block bg-cyan-500 hover:bg-gray-800 text-gray-200 font-semibold py-2 px-5 text-base rounded-md transition">
+                            Explora nuestros cursos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#para-empresas"
+                            class="block bg-cyan-500 hover:bg-gray-800 text-gray-200 font-semibold py-2 px-5 text-base rounded-md transition">
+                            Empresas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#por-que-elegirnos"
+                            class="block bg-cyan-500 hover:bg-gray-800 text-gray-200 font-semibold py-2 px-5 text-base rounded-md transition">
+                            Por qué elegirnos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacto"
+                            class="block bg-cyan-500 hover:bg-gray-800 text-gray-200 font-semibold py-2 px-5 text-base rounded-md transition">
+                            Contáctanos
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Bloque de iconos (alineados a la derecha) -->
+                
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Sección de Mensaje Clave -->
+    <main class="container mx-auto px-4 md:px-8 lg:px-16 py-12">
+        <section class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+            <p class="text-lg text-gray-700 leading-relaxed text-justify">
+                CENFORPRO-ADSI es una entidad educativa especializada en capacitación en línea que ofrece un portafolio
+                de
+                servicios (webinars, cursos, talleres) centrado en habilidades tecnológicas y digitales de alta demanda
+                en el mercado laboral peruano. Nuestro modelo se basa en la calidad académica, una metodología de
+                aprendizaje práctica y una alineación curricular con las necesidades del mercado para ayudarte a mejorar
+                tu competitividad y productividad.
+            </p>
+        </section>
+        <!-- Sección Sobre Nosotros -->
+        <section id="sobre-nosotros"
+            class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-cyan-500 scroll-mt-28">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-500 pb-2">Sobre
+                Nosotros</h2>
+            <p class="text-gray-600 mb-4 leading-relaxed text-justify">
+                Somos un centro de formación profesional que capitaliza la oportunidad del mercado EdTech en Perú, el
+                cual tuvo un crecimiento promedio del 400% en 2020. A pesar de los avances del país en habilidades
+                digitales, existe una brecha significativa entre las habilidades requeridas por la industria y el nivel
+                de alfabetización digital de la población.
+            </p>
+            <p class="text-gray-600 leading-relaxed text-justify">
+                Nuestra misión es ser el puente entre esa brecha, ofreciendo programas de iniciación en competencias
+                básicas y especializaciones avanzadas en áreas emergentes como Inteligencia Artificial, Ciencia de Datos
+                y Ciberseguridad.
+            </p>
+        </section>
+
+        <!-- Sección Nuestros Programas -->
+        <section id="nuestros-programas"
+            class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-cyan-500 scroll-mt-28">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-600 pb-2">Nuestros
+                Programas</h2>
+            <p class="text-gray-600 mb-8 leading-relaxed">
+                Nuestro catálogo está diseñado para capitalizar la demanda del mercado, con un enfoque práctico y
+                sesiones en vivo (sincrónicas) para fomentar la interacción.
+            </p>
+
+            <!-- Categorías de Cursos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Análisis de Datos e IA -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Análisis de Datos e IA</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Python para Data Science</li>
+                        <li>Análisis de Datos con Power BI y SQL</li>
+                        <li>Introducción al Machine Learning</li>
+                    </ul>
+                </div>
+
+                <!-- Ciberseguridad -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Ciberseguridad</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Hacking Ético para principiantes</li>
+                        <li>Gestión de Incidentes y Respuesta Forense</li>
+                    </ul>
+                </div>
+
+                <!-- Desarrollo de Software -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Desarrollo de Software</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Desarrollo Full Stack con MERN/MEAN</li>
+                        <li>Programación de APIs con Python y Flask</li>
+                    </ul>
+                </div>
+
+                <!-- Excel -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Excel</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li> Excel 365</li>
+                        <li> Excel con Inteligencia Artificial (Excel & IA)</li>
+                        <li>Excel de Cero a Experto</li>
+                        <li>Tablas Dinámicas y Dashboards en Excel</li>
+                        <li>Excel Integral</li>
+                    </ul>
+                </div>
+
+                <!-- Análisis de Datos con Power BI -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Análisis de Datos con Power BI</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Fundamentos de Análisis de Datos con Excel, Power Query y Power BI
+                        </li>
+                        <li> Modelado de Datos y DAX Intermedio</li>
+                        <li>Visualización Avanzada y Análisis Predictivo con Power BI</li>
+                        <li> IA y Soluciones Integradas con Power BI
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Análisis de Datos -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Análisis de Datos</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Power Query (Excel y Power BI)</li>
+                        <li>Power Pivot + DAX</li>
+                        <li>Power BI en 24 horas</li>
+                        <li>DAX Avanzado en Power BI
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Microsoft Office -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Microsoft Office</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Informática Básica + Windows + Internet + IA
+                        </li>
+                        <li>Elaboración de Documentos con Word</li>
+                        <li>Presentaciones con Power Point y Canva</li>
+                        <li>Manejo de Datos con Excel</li>
+                    </ul>
+                </div>
+
+                <!-- Bases de Datos -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Bases de Datos</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Modelamiento de Datos con Oracle DM</li>
+                        <li>Gestión de Bases de Datos con Access</li>
+                        <li>Administración de Bases de Datos con Oracle</li>
+                        <li>Manejo de Datos con Oracle</li>
+                        <li>Manejo de Datos con SQL Server</li>
+                        <li>Administración de Bases de Datos con SQL</li>
+                    </ul>
+                </div>
+                <!-- Excel -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Sistemas</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Gestión de Proyectos con Project</li>
+                        <li>Gestión de Proyectos con Project y Trello
+                        </li>
+                        <li>Modelamiento de Procesos de Negocios con Bizagi
+                        </li>
+                    </ul>
+                </div>
+                <!-- Excel -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Programación</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Fundamentos de Programación con Python
+
+                        </li>
+                        <li>Desarrollo de Aplicaciones con Python
+
+                        </li>
+                        <li>Desarrollo Web con Python
+
+                        </li>
+                        <li>Desarrollo de App Móviles con Python
+
+                        </li>
+
+                        <li>Python para Desarrollo y Análisis de Datos
+
+                        </li>
+                        <li>Python para Análisis de Datos y&nbsp;&nbsp;&nbsp;&nbsp; Automatización
+
+                        </li>
+                    </ul>
+                </div>
+                <!-- Excel -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Inteligencia Artificial (IA)</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>IA para Todos
+                        </li>
+                        <li>IA Productiva: para tu Trabajo en Oficina
+                        </li>
+                        <li>IA para Empresas de Servicios
+                        </li>
+                        <li>IA para Recursos Humanos
+                        </li>
+                        <li>IA para Docentes de Colegios
+                        </li>
+                        <li>Impulsa tu Carrera Universitaria con IA
+                        </li>
+                        <li>IA para Padres: Para el aprendizaje escolar
+                        </li>
+                        <li>IA para el Adulto Mayor
+                        </li>
+                        <li>IA para Profesionales
+                        </li>
+                    </ul>
+                </div>
+                <!-- Excel -->
+                <div class="bg-gray-100 p-6 rounded-xl shadow-inner border border-gray-200">
+                    <h3 class="text-xl font-bold text-cyan-600 mb-2">Machine Learning (ML)</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Fundamentos de Computación y Programación
+                        </li>
+                        <li>Fundamentos Matemáticos para ML
+                        </li>
+                        <li>Manipulación y Análisis de Datos
+                        </li>
+                        <li>Introducción a Machine Learning
+                        </li>
+                        <li>Redes Neuronales y Deep Learning
+                        </li>
+                        <li>ML Aplicado y Proyectos
+                        </li>
+                    </ul>
+                </div>
+                <!-- Excel -->
+
+            </div>
+
+            <!-- Webinars y Programas Corporativos -->
+            <div class="mt-8 space-y-8">
+                <div class="p-6 rounded-xl border border-gray-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Webinars</h3>
+                    <p class="text-gray-600 leading-relaxed text-justify">
+
+                        Eventos en vivo de corta duración, gratuitos o de bajo costo, diseñados para generar contactos
+                        con temas de vanguardia.
+                    </p>
+                </div>
+                <div class="p-6 rounded-xl border border-gray-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Cursos y Talleres
+                    </h3>
+                    <p class="text-gray-600 leading-relaxed text-justify">
+
+                        Programas de mayor duración, con sesiones en vivo y un enfoque eminentemente práctico.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Para Empresas y Gobierno -->
+        <section id="para-empresas"
+            class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-gray-200 scroll-mt-28">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-600 pb-2">
+                Empresas </h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Enfoque Práctico y Local: </h3>
+                    <p class="text-gray-600 leading-relaxed text-justify">
+
+                        Nuestra metodología es eminentemente práctica, con casos de estudio concretos del entorno
+                        empresarial peruano, algo que a menudo falta en las plataformas internacionales.
+
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2"> Especialización en Nichos Tecnológicos:</h3>
+                    <p class="text-gray-600 leading-relaxed text-justify">
+                        Nos enfocamos en los perfiles más demandados por el mercado peruano, garantizando un currículo
+                        que se adapta rápidamente a las nuevas tendencias.
+
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2"> Modelo de Negocio Ágil y Dual:</h3>
+                    <p class="text-gray-600 leading-relaxed text-justify">
+                        No solo ofrecemos cursos a individuos, sino que nos especializamos en la capacitación a medida
+                        para empresas (B2B) y la participación en licitaciones públicas (B2G), un segmento de mercado de
+                        alto valor.
+
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección Por Qué Elegirnos -->
+        <section id="por-que-elegirnos"
+            class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-gray-200 scroll-mt-28">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-600 pb-2">¿Por Qué
+                Elegirnos?</h2>
+            <ul class="space-y-6 text-gray-600">
+                <li class="flex items-start">
+                    <svg class="flex-shrink-0 w-6 h-6 text-cyan-600 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-8a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zm3-3a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM7 9a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM5 13a1 1 0 011-1h3a1 1 0 110 2H6a1 1 0 01-1-1z">
+                        </path>
+                    </svg>
+                    <div>
+                        <strong class="text-gray-800 text-justify">Formación para Profesionales:</strong> Nuestra
+                        estrategia B2C se
+                        enfoca en construir una comunidad y ofrecer webinars gratuitos para generar interés y cursos
+                        especializados para el desarrollo profesional.
+
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <svg class="flex-shrink-0 w-6 h-6 text-cyan-600 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-8a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zm3-3a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM7 9a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM5 13a1 1 0 011-1h3a1 1 0 110 2H6a1 1 0 01-1-1z">
+                        </path>
+                    </svg>
+                    <div>
+                        <strong class="text-gray-800 text-justify">Capacitación a Medida para Empresas:</strong>
+                        Enfatizamos un
+                        enfoque
+                        práctico con casos de estudio concretos del entorno empresarial peruano, algo que a menudo falta
+                        en las plataformas internacionales.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <svg class="flex-shrink-0 w-6 h-6 text-cyan-600 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-8a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zm3-3a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM7 9a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM5 13a1 1 0 011-1h3a1 1 0 110 2H6a1 1 0 01-1-1z">
+                        </path>
+                    </svg>
+                    <div>
+                        <strong class="text-gray-800 text-justify">Servicios para Entidades Públicas:</strong> La venta
+                        al Estado es
+                        un pilar estratégico. Monitoreamos activamente el SEACE para identificar oportunidades y
+                        presentar propuestas técnicas y económicas competitivas.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <svg class="flex-shrink-0 w-6 h-6 text-cyan-600 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-8a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zm3-3a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM7 9a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM5 13a1 1 0 011-1h3a1 1 0 110 2H6a1 1 0 01-1-1z">
+                        </path>
+                    </svg>
+                    <div>
+                        <strong class="text-gray-800 text-justify ">Certificación:</strong> Al finalizar nuestros
+                        programas,
+                        proporcionamos una certificación digital que valida las habilidades adquiridas, con la
+                        posibilidad de una doble certificación para programas complejos.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-gray-200 scroll-mt-28">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-600 pb-2">Contáctanos
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Formulario de Contacto -->
+                <div>
+                    <form class="space-y-4" action="https://formsubmit.co/camargobpabloj@email.com" method="POST">
+                        <div>
+                            <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre y
+                                Apellidos:</label>
+                            <input type="text" id="nombre" name="nombre"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2">
+                        </div>
+                        <div>
+                            <label for="empresa" class="block text-sm font-medium text-gray-700">Empresa
+                                (opcional):</label>
+                            <input type="text" id="empresa" name="empresa"
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Correo
+                                Electrónico:</label>
+                            <input type="email" id="email" name="email" required
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2">
+                        </div>
+                        <div>
+                            <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required
+                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-300 shadow-lg">Enviar
+                            Mensaje</button>
+                    </form>
+                </div>
+
+                <!-- Información de Contacto y Redes Sociales -->
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Información de Contacto</h3>
+                        <p class="text-gray-600"><strong>MAIL:</strong> informes@adsi.edu.pe</p>
+                        <p class="text-gray-600"><strong>Celular:</strong> +51-995770117</p>
+                        <p class="text-gray-600"><strong>Dirección:</strong> Jirón General Varela 1233 - 108, Breña,
+                            Lima, Perú</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.5612157053858!2d-77.05853202917732!3d-12.057368699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cd51da46bb49%3A0xde4d2b3217f63b86!2sJir%C3%B3n%20General%20Varela%201233%2C%20Bre%C3%B1a%2015003!5e0!3m2!1ses-419!2spe!4v1715773560000!5m2!1ses-419!2spe"
+                            width="100%" height="350" style="border:0; border-radius:10px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-900 text-white py-6 px-4 text-center mt-12 rounded-t-3xl shadow-inner">
+        <p class="text-sm text-gray-400">&copy; 2025 Centro de Formación Profesional ADSI. Todos los derechos
+            reservados.</p>
+    </footer>
+
+</body>
+
+</html>
